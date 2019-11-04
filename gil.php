@@ -51,8 +51,8 @@ $otp_pin=trim(fgets(STDIN));
 $header[] = "otp: $otp_pin"; 
 $verif_setpin=curl('https://api.gojekapi.com/wallet/pin','{"pin":"'.$pin.'"}',$header,$proxy);
 echo "[+] Process Redeem GOFOODBOBA07 = ";
-$GOFOODBOBA07=curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments','{"promo_code":"GOFOODPASTA07"}',$header,$proxy);
-if (get_between($GOFOODPASTA07,'"success":',',')=="true"){
+$GOFOODBOBA07=curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments','{"promo_code":"GOFOODBOBA07"}',$header,$proxy);
+if (get_between($GOFOODBOBA07,'"success":',',')=="true"){
 	echo "Yeay bisa makan luu... \n";	
 	$live = "token-accounts.php";
 	$fopen1 = fopen($live, "a+");
