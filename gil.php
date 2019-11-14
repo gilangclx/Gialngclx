@@ -24,7 +24,19 @@ $header[] = 'Content-Type:application/json; charset=UTF-8';
 $header[] = 'Host:api.gojekapi.com'; 
 $header[] = 'Connection:Keep-Alive';
 $header[] = 'User-Agent:okhttp/3.12.1';
-echo "TOOLS\n";
+system('clear');
+print "\033[01;31m"; // Merah tua
+print "=================================== \n";
+print "   ____                             \n";
+print "  / ___| ___ _ __ ___  _ __   __ _  \n";
+print " | |  _ / _ \ '_ ` _ \| '_ \ / _` | \n";
+print " | |_| |  __/ | | | | | |_) | (_| | \n";
+print "  \____|\___|_| |_| |_| .__/ \__,_| \n";
+print "                      |_|   TERKINI \n";
+print "=================================== \n";
+print "\033[0m"; // Normal
+main();
+sleep(3);
 ############# DAPTAR #############
 echo "[+] Nomor Mane = ";
 $nomer=trim(fgets(STDIN));
@@ -63,19 +75,6 @@ if (get_between($GOFOODSANTAI19,'"success":',',')=="true"){
 else{
 	echo "Gagal Mamankkkk Euy \n";
 }
-system('clear');
-print "\033[01;31m"; // Merah tua
-print "=================================== \n";
-print "   ____                             \n";
-print "  / ___| ___ _ __ ___  _ __   __ _  \n";
-print " | |  _ / _ \ '_ ` _ \| '_ \ / _` | \n";
-print " | |_| |  __/ | | | | | |_) | (_| | \n";
-print "  \____|\___|_| |_| |_| .__/ \__,_| \n";
-print "                      |_|   TERKINI \n";
-print "=================================== \n";
-print "\033[0m"; // Normal
-main();
-sleep(3);
      break;
 }
 else{
