@@ -35,7 +35,6 @@ print "  \____|\___|_| |_| |_| .__/ \__,_| \n";
 print "                      |_|   TERKINI \n";
 print "=================================== \n";
 print "\033[0m"; // Normal
-main();
 sleep(3);
 ############# DAPTAR #############
 echo "[+] Nomor Mane = ";
