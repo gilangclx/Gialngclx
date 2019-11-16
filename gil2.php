@@ -1,20 +1,17 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red"," ===========================\n");
-echo color("blue","| Claim Voucher Gojek|\n");
-echo color("green","| Auto create Gojek X Redeem voucher |\n");
-echo color("yellow","| github: kumpulanremaja |\n");
-echo color("white","| fanspage :4kumpulanremaja|\n");
-echo color("pink","| Creator : kumpulanremaja.com          |\n");
-echo "| Version : Premium X pertalite      |\n";
-echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
-echo " ===========================\n";
+echo color("red"," =====================================\n");
+echo color("blue","| Claim Voucher Gojek           \n");
+echo color("green","| Auto create Gojek X Redeem voucher \n");
+echo color("yellow","| github: gilangclx             \n");
+echo "| Time    :".date('[d-m-Y] [H:i:s]')."              \n";
+echo color("red"," =====================================\n");
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         ulang:
-        echo color("nevy","?] Nomor : ");
+        echo color("nevy","•] Nomor : ");
         // $no = trim(fgets(STDIN));
         $nohp = trim(fgets(STDIN));
         $nohp = str_replace("62","62",$nohp);
@@ -178,9 +175,9 @@ echo " ===========================\n";
             goto otp;
             }
          }else{
-         echo color("red","-] Nomor sudah teregistrasi");
+         echo color("red","-] Nomor sudah terdaftar");
          echo"\n==================================\n\n";
-         echo color("yellow","!] Silahkan registrasi kembali\n");
+         echo color("yellow","!] Silahkan daftar kembali\n");
          goto ulang;
          }
 //  }
